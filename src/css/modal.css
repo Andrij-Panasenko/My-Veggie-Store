@@ -22,6 +22,7 @@
 }
 
 .modal {
+  /* overflow: auto; */
   position: absolute;
   top: 0;
   left: 50%;
@@ -298,8 +299,6 @@
 @media screen and (min-width: 1280px) {
   .modal {
     width: 891px;
-    height: 92%;
-    height: 100%;
   }
   .modal-list {
     gap: 20px;
